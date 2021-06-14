@@ -46,8 +46,6 @@ def addParents(tList, ans, parents):
             ob = search(tList, p)
             if(addBlock(tList, ob, ans) == False):
                 return False
-            else:
-                print(ob.txid)
     return True
 
 
